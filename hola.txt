@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class SumaDeNumeros {
+
+  public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+    int n;
+    int n2;
+    System.out.println("Dime el primer numero");
+    n=Integer.parseInt(sc.nextLine());
+ 	if(numero%2==0)
+{
+	System.out.println("El numero es par");
+}else
+{
+	System.out.println("El numero no es par");
+}
+  }
+
+}
